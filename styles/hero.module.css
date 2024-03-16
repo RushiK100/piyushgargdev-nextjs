@@ -10,12 +10,17 @@
   padding-top: 50px;
 }
 
-.hero__img {
-  position: relative;
-  z-index: 9;
-  display: flex;
-  /* border: 2px solid red; */
-  justify-content: flex-end;
+.hero__skills {
+  text-align: left;
+  width: 130px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  background: #808dad26;
+  z-index: 10;
 }
 
 .hero__img img {
